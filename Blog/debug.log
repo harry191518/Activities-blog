@@ -1,0 +1,22 @@
+date: "2015-02-19 22:51:35.353"
+argv: node /Users/RLai/.nvm/v0.10.36/bin/hexo server
+os: Darwin 14.0.0 darwin x64
+versions:
+  http_parser: "1.0"
+  node: 0.10.36
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.30
+  zlib: 1.2.8
+  modules: "11"
+  openssl: 1.0.1l
+  hexo: 2.8.3
+---
+[debug] 22:51:34.993 Config file loaded from /Users/RLai/Node/test/_config.yml[debug] 22:51:34.995 Version info checked successfully[debug] 22:51:35.009 Loading database.[debug] 22:51:35.046 Processed: draft.md (1ms)[debug] 22:51:35.046 Processed: page.md (1ms)[debug] 22:51:35.051 Processed: photo.md (6ms)[debug] 22:51:35.051 Processed: post.md (5ms)[debug] 22:51:35.062 Plugin loaded successfully: hexo-renderer-ejs[debug] 22:51:35.158 Plugin loaded successfully: hexo-renderer-jade[debug] 22:51:35.170 Plugin loaded successfully: hexo-renderer-marked[debug] 22:51:35.278 Plugin loaded successfully: hexo-renderer-stylus[debug] 22:51:35.301 Processed: _posts/competition1.md (11ms)[debug] 22:51:35.301 Processed: _posts/road5.md (0ms)[debug] 22:51:35.302 Processed: _posts/road6.md (1ms)[debug] 22:51:35.302 Processed: _posts/upload.md (0ms)[debug] 22:51:35.303 Processed: _posts/process.md (1ms)[debug] 22:51:35.308 Processed: source/css/grids-responsive-min.css (1ms)[debug] 22:51:35.308 Processed: source/css/pure-min.css (0ms)[debug] 22:51:35.308 Processed: source/css/style.css (0ms)[debug] 22:51:35.308 Processed: source/fonts/fontawesome.eot (0ms)[debug] 22:51:35.308 Processed: source/fonts/fontawesome.svg (0ms)[debug] 22:51:35.309 Processed: source/fonts/fontawesome.ttf (1ms)[debug] 22:51:35.309 Processed: source/fonts/fontawesome.woff (0ms)[debug] 22:51:35.309 Processed: source/js/script.js (0ms)[debug] 22:51:35.311 Processed: source/css/style.css.bak (0ms)[debug] 22:51:35.311 Processed: source/avatar.jpg (0ms)[debug] 22:51:35.311 Processed: source/js/app.js (0ms)[debug] 22:51:35.311 Processed: source/css/app.css (0ms)[debug] 22:51:35.313 Processed: layout/archive.jade (4ms)[debug] 22:51:35.313 Processed: layout/category.jade (4ms)[debug] 22:51:35.313 Processed: layout/index.jade (4ms)[debug] 22:51:35.313 Processed: layout/layout.jade (4ms)[debug] 22:51:35.313 Processed: layout/page.jade (4ms)[debug] 22:51:35.313 Processed: layout/post.jade (4ms)[debug] 22:51:35.313 Processed: layout/tag.jade (4ms)[debug] 22:51:35.313 Processed: layout/_partial/archive-post.jade (4ms)[debug] 22:51:35.313 Processed: layout/_partial/after-footer.jade (4ms)[debug] 22:51:35.313 Processed: layout/_partial/archive.jade (4ms)[debug] 22:51:35.313 Processed: layout/_partial/article.jade (4ms)[debug] 22:51:35.313 Processed: layout/_partial/ga.jade (3ms)[debug] 22:51:35.314 Processed: layout/_partial/footer.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/head.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/header.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/avatar.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/category.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/date.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/gallery.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/nav.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/tag.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/post/title.jade (4ms)[debug] 22:51:35.314 Processed: layout/_partial/footer.jade.bak (3ms)[debug] 22:51:35.314 Processed: layout/_partial/article.jade.bak (3ms)[debug] 22:51:35.314 Processed: layout/_partial/post/upload.jade (3ms)[debug] 22:51:35.314 Processed: layout/_partial/post/process.jade (3ms)[debug] 22:51:35.314 Theme config loaded[debug] 22:51:35.314 Processed: _config.yml (7ms)[debug] 22:51:35.326 Generator: archive (8ms)[debug] 22:51:35.327 Generator: category (1ms)[debug] 22:51:35.329 Generator: home (2ms)[debug] 22:51:35.329 Generator: page (0ms)[debug] 22:51:35.341 Generator: post (12ms)[debug] 22:51:35.341 Generator: tag (0ms)[debug] 22:51:35.344 Generator: asset (3ms)[error] 22:51:35.348 HexoError: Port 4000 has been used. Try other port instead.
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at net.js:1147:9
+    at asyncCallback (dns.js:68:16)
+    at Object.onanswer [as oncomplete] (dns.js:121:9)
